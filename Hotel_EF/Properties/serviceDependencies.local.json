@@ -1,13 +1,10 @@
 {
   "dependencies": {
-    "secrets1": {
-      "type": "secrets.user"
-    },
     "mssql1": {
       "secretStore": "LocalSecretsFile",
+      "resourceId": null,
       "type": "mssql.local",
-      "connectionId": "Hotel_EF",
-      "dynamicId": null
+      "connectionId": "ConnectionStrings:Hotel_EFContext"
     }
   }
 }
